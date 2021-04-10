@@ -16,4 +16,9 @@ public class BasicPageDef {
     public void clickButton(String arg0) {
         basicPage.clickButton(arg0);
     }
+
+    @Then("Content {string} visible")
+    public void contentVisible(String arg0) {
+        basicPage.contentVisible(arg0);
+    }
 }
